@@ -254,7 +254,7 @@
 					"left": 700,
 					"width": 660,
 					"height": 650,
-					"sizingX": "fixed",
+					"sizingX": "grow",
 					"sizingY": "grow",
 					"dataSource": "[DOC:1]SampleDoc:2",
 					"hideFocusRing": true,
@@ -346,6 +346,14 @@
 						"onClick"
 					],
 					"sizingX": "fixed"
+				},
+				"Splitter1": {
+					"type": "splitter",
+					"left": 1369,
+					"top": 91,
+					"width": 1,
+					"height": 736,
+					"sizingY": "grow"
 				}
 			}
 		}
@@ -379,7 +387,7 @@
 			"View 9": {}
 		}
 	},
-	"geometryStamp": 103,
+	"geometryStamp": 173,
 	"$4d": {
 		"version": "1",
 		"kind": "form"
