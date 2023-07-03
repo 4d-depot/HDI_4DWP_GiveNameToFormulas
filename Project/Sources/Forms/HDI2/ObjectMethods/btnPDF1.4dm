@@ -9,4 +9,6 @@ WP SET DATA CONTEXT:C1786(WParea1; New object:C1471("company"; $company))
 WP COMPUTE FORMULAS:C1707(WParea1)
 
 Form:C1466.formulas:=[]
+OBJECT SET ENABLED:C1123(*; "btnFillNames"; False:C215)
+OBJECT SET ENABLED:C1123(*; "btnSetFormulaNames"; False:C215)
 

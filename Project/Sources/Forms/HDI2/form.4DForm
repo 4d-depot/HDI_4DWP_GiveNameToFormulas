@@ -348,7 +348,7 @@
 						}
 					]
 				},
-				"btnPDF3": {
+				"btnSetFormulaNames": {
 					"type": "button",
 					"top": 711,
 					"left": 470,
@@ -357,22 +357,22 @@
 					"sizingY": "move",
 					"text": "Set formulas with names",
 					"focusable": false,
-					"method": "ObjectMethods/btnPDF3.4dm",
+					"method": "ObjectMethods/btnSetFormulaNames.4dm",
 					"events": [
 						"onClick"
 					],
 					"sizingX": "fixed"
 				},
-				"btnPDF4": {
+				"btnFillNames": {
 					"type": "button",
 					"top": 666,
 					"left": 470,
 					"width": 190,
 					"height": 20,
 					"sizingY": "move",
-					"text": "Set names",
+					"text": "Fill with sample names",
 					"focusable": false,
-					"method": "ObjectMethods/btnPDF4.4dm",
+					"method": "ObjectMethods/btnFillNames.4dm",
 					"events": [
 						"onClick"
 					],
@@ -538,7 +538,7 @@
 		"version": "1",
 		"kind": "form"
 	},
-	"geometryStamp": 5378,
+	"geometryStamp": 5380,
 	"editor": {
 		"activeView": "View 1",
 		"defaultView": "View 1",

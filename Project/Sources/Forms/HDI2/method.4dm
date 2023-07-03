@@ -28,6 +28,9 @@ Case of
 		
 		WP SET VIEW PROPERTIES:C1648(*; "WP"; New object:C1471(wk visible references:K81:286; True:C214))
 		
+		OBJECT SET ENABLED:C1123(*; "btnFillNames"; False:C215)
+		OBJECT SET ENABLED:C1123(*; "btnSetFormulaNames"; False:C215)
+		
 		
 	: (Form event code:C388=On Timer:K2:25)
 		
