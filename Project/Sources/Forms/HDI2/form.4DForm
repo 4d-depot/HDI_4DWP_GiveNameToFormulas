@@ -82,6 +82,31 @@
 		},
 		{
 			"objects": {
+				"WParea3": {
+					"type": "write",
+					"top": 80,
+					"left": 140,
+					"width": 920,
+					"height": 660,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"dataSource": "WParea2",
+					"enterable": false,
+					"focusable": false,
+					"hideFocusRing": true,
+					"scrollbarVertical": "automatic",
+					"scrollbarHorizontal": "automatic",
+					"showSelection": true,
+					"showHorizontalRuler": false,
+					"showVerticalRuler": false,
+					"layoutMode": "embedded",
+					"borderStyle": "none",
+					"events": []
+				}
+			}
+		},
+		{
+			"objects": {
 				"Ovale": {
 					"type": "oval",
 					"top": 484,
@@ -140,15 +165,15 @@
 				},
 				"WP": {
 					"type": "write",
-					"top": 70,
+					"top": 110,
 					"left": 40,
 					"width": 620,
-					"height": 380,
+					"height": 340,
 					"sizingX": "grow",
 					"sizingY": "grow",
 					"dataSource": "WParea1",
-					"enterable": true,
-					"focusable": true,
+					"enterable": false,
+					"focusable": false,
 					"hideFocusRing": true,
 					"scrollbarVertical": "automatic",
 					"scrollbarHorizontal": "automatic",
@@ -235,7 +260,7 @@
 					"type": "radio",
 					"text": "Display formulas",
 					"top": 46,
-					"left": 42,
+					"left": 40,
 					"width": 202,
 					"height": 20,
 					"events": [
@@ -250,8 +275,8 @@
 				"Bouton radio1": {
 					"type": "radio",
 					"text": "Display values",
-					"top": 46,
-					"left": 247,
+					"top": 70,
+					"left": 40,
 					"width": 202,
 					"height": 20,
 					"events": [
@@ -437,10 +462,10 @@
 				},
 				"Texte3": {
 					"type": "text",
-					"text": "Get formulas from the document",
+					"text": "Get the formulas from the document",
 					"top": 493,
 					"left": 86,
-					"width": 353,
+					"width": 373,
 					"height": 22,
 					"fontSize": 18,
 					"textAlign": "left",
@@ -465,10 +490,10 @@
 				},
 				"Texte5": {
 					"type": "text",
-					"text": "Set named formulas in the document",
+					"text": "Set the formula names in the document",
 					"top": 711,
 					"left": 86,
-					"width": 353,
+					"width": 373,
 					"height": 22,
 					"fontSize": 18,
 					"textAlign": "left",
@@ -491,6 +516,20 @@
 					"sizingY": "move",
 					"sizingX": "fixed",
 					"fontStyle": "italic"
+				},
+				"Case à cocher": {
+					"type": "checkbox",
+					"text": "Display as symbol",
+					"top": 43,
+					"left": 234,
+					"width": 175,
+					"height": 23,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/Case à cocher.4dm",
+					"focusable": false,
+					"dataSource": "Form:C1466.displayAsSymbol"
 				}
 			}
 		}
@@ -499,7 +538,7 @@
 		"version": "1",
 		"kind": "form"
 	},
-	"geometryStamp": 5348,
+	"geometryStamp": 5378,
 	"editor": {
 		"activeView": "View 1",
 		"defaultView": "View 1",

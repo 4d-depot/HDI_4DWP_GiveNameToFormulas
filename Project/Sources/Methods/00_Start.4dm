@@ -22,7 +22,7 @@ Case of
 		$options:=New object:C1471
 		
 		$options.title:=""
-		$options.title:=$options.title+"give formulas a name to make them easier to read?"
+		$options.title:=$options.title+"asign formulas a name to make them easier to read?"
 		
 		$options.blog:="blog.4d.com"
 		$options.info:="4D Write Pro feature"  //ex : "4D View Pro feature"

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE base SYSTEM "http://www.4d.com/dtd/2007/base.dtd" >
-<base name="HDI_4DWP_DisplayFormulas" uuid="2D4F6103DC084198BFC0283C03D0A0B2" collation_locale="en">
+<base name="HDI_4DWP_GiveNameToFormulas" uuid="2D4F6103DC084198BFC0283C03D0A0B2" collation_locale="en">
 	<schema name="DEFAULT_SCHEMA"/>
 	<table name="Documents" uuid="5FFB6E4662E84076BB60B2CCF062C87D" id="1">
 		<field name="ID" uuid="CF01C76D9B944C3282BEF752A9145C75" type="4" unique="true" autosequence="true" not_null="true" id="1"/>
@@ -120,7 +120,7 @@
 			<table_ref uuid="26C4DA58B2ED432FA2796100B8AEA603" name="Templates"/>
 		</field_ref>
 	</index>
-	<base_extra __stringCompHash="icu:68.1.0" __keywordBuildingHash="icu:68.1.0" package_name="HDI_4DWP_ExportDocx" structure_file_name="HowDoI" data_file_path=":HowDoI.4DD">
+	<base_extra __stringCompHash="icu:72.1.0" __keywordBuildingHash="icu:72.1.0" package_name="HDI_4DWP_ExportDocx" structure_file_name="HowDoI" data_file_path=":HowDoI.4DD">
 		<journal_file journal_file_enabled="false"/>
 	</base_extra>
 </base>

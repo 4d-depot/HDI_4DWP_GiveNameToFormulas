@@ -24,6 +24,8 @@ Case of
 		
 		Form:C1466.displayFormulas:=1
 		Form:C1466.displayValues:=0
+		Form:C1466.displayAsSymbol:=False:C215
+		
 		WP SET VIEW PROPERTIES:C1648(*; "WP"; New object:C1471(wk visible references:K81:286; True:C214))
 		
 		

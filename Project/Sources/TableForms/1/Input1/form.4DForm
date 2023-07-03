@@ -222,32 +222,6 @@
 						"onPrintingDetail"
 					]
 				},
-				"Button": {
-					"type": "button",
-					"top": 16,
-					"left": 1514,
-					"width": 122,
-					"height": 17,
-					"text": "IMPORT",
-					"focusable": false,
-					"method": "ObjectMethods/Button.4dm",
-					"events": [
-						"onClick"
-					]
-				},
-				"Button1": {
-					"type": "button",
-					"top": 16,
-					"left": 1667,
-					"width": 122,
-					"height": 17,
-					"text": "EXPORT",
-					"focusable": false,
-					"method": "ObjectMethods/Button1.4dm",
-					"events": [
-						"onClick"
-					]
-				},
 				"WParea2": {
 					"type": "write",
 					"top": 130,
@@ -354,6 +328,19 @@
 					"width": 1,
 					"height": 736,
 					"sizingY": "grow"
+				},
+				"Bouton": {
+					"type": "button",
+					"text": "Transparent",
+					"top": 84,
+					"left": 1241,
+					"width": 119,
+					"height": 36,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/Bouton.4dm",
+					"sizingX": "move"
 				}
 			}
 		}
@@ -387,7 +374,7 @@
 			"View 9": {}
 		}
 	},
-	"geometryStamp": 173,
+	"geometryStamp": 178,
 	"$4d": {
 		"version": "1",
 		"kind": "form"
