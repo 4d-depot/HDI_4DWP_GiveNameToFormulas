@@ -517,7 +517,7 @@
 					"sizingX": "fixed",
 					"fontStyle": "italic"
 				},
-				"Case à cocher": {
+				"Checkbox": {
 					"type": "checkbox",
 					"text": "Display as symbol",
 					"top": 43,
@@ -527,7 +527,7 @@
 					"events": [
 						"onClick"
 					],
-					"method": "ObjectMethods/Case à cocher.4dm",
+					"method": "ObjectMethods/Checkbox.4dm",
 					"focusable": false,
 					"dataSource": "Form:C1466.displayAsSymbol"
 				}
@@ -538,7 +538,7 @@
 		"version": "1",
 		"kind": "form"
 	},
-	"geometryStamp": 5380,
+	"geometryStamp": 5381,
 	"editor": {
 		"activeView": "View 1",
 		"defaultView": "View 1",
