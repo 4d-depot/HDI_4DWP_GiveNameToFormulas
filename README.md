@@ -1,2 +1,3 @@
-# HDI_4DWP_DisplayFormulas
- 4D Write Pro Display Formulas as F
+# HDI_4DWP_GiveNameToFormulas
+
+Assign formulas a name to make them easier to read
